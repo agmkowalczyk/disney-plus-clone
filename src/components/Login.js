@@ -5,14 +5,14 @@ function Login() {
   return (
     <Container>
       <CTA>
-        <CTALogo1 src="/images/cta-logo-one.svg" alt="" />
+        <CTALogo1 src="./images/cta-logo-one.svg" alt="" />
         <SignUp>
           GET ALL THERE
         </SignUp>
         <Description>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </Description>
-        <CTALogo2 src="/images/cta-logo-two.png" alt="" />
+        <CTALogo2 src="./images/cta-logo-two.png" alt="" />
       </CTA>
     </Container>
   )
@@ -29,7 +29,7 @@ const Container = styled.div`
   justify-content: center;
   
   &:before {
-    background: url("/images/login-background.jpg") center center/cover no-repeat fixed;
+    background: url("./images/login-background.jpg") center center/cover no-repeat fixed;
     content: "";
     position: absolute;
     top: 0;

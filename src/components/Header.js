@@ -53,7 +53,7 @@ function Header() {
 
   return (
     <Nav>
-      <Logo src="/images/logo.svg" />
+      <Logo src="./images/logo.svg" />
       {
         !userName
         ? <LoginContainer>
@@ -62,27 +62,27 @@ function Header() {
         : <>
             <NavMenu>
               <a href>
-                <img src="/images/home-icon.svg" alt=""/>
+                <img src="./images/home-icon.svg" alt=""/>
                 <span>HOME</span>
               </a>
               <a href>
-                <img src="/images/search-icon.svg" alt=""/>
+                <img src="./images/search-icon.svg" alt=""/>
                 <span>SEARCH</span>
               </a>
               <a href>
-                <img src="/images/watchlist-icon.svg" alt=""/>
+                <img src="./images/watchlist-icon.svg" alt=""/>
                 <span>WATCHLIST</span>
               </a>
               <a href>
-                <img src="/images/original-icon.svg" alt=""/>
+                <img src="./images/original-icon.svg" alt=""/>
                 <span>ORIGINAL</span>
               </a>
               <a href>
-                <img src="/images/movies-icon.svg" alt=""/>
+                <img src="./images/movie-icon.svg" alt=""/>
                 <span>MOVIES</span>
               </a>
               <a href>
-                <img src="/images/series-icon.svg" alt=""/>
+                <img src="./images/series-icon.svg" alt=""/>
                 <span>SERIES</span>
               </a>
             </NavMenu>
