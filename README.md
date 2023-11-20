@@ -10,4 +10,4 @@ Disney Plus Clone (React, Redux, Firebase, auth)
 
 ## Image
 
-![preview](https://github.com/agmkowalczyk/disney-plus-clone/blob/main/screenshot_disney-plus-clone.png "Disney Plus Clone")
+![preview](https://github.com/agmkowalczyk/disney-plus-clone/blob/master/screenshot_disney-plus-clone.png "Disney Plus Clone")
